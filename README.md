@@ -16,6 +16,19 @@ This project is a command-line tool that scrapes Reddit posts and comments from 
   - Personality Traits
   - Behavior, Skills, Frustrations
   - And more...
+## Setting up Environment Variables
+
+This script requires Reddit and Google API keys.
+
+1. Create a `.env` file in the project root (you can copy from `.env.example`): 
+2. Fill in your actual keys:
+```env
+REDDIT_CLIENT_ID=your-client-id
+REDDIT_CLIENT_SECRET=your-client-secret
+REDDIT_USER_AGENT=your-user-agent
+GOOGLE_API_KEY=your-google-api-key
+
+
 
 ## 🛠️ How It Works
 
